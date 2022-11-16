@@ -47,6 +47,11 @@ section{
         "main2" "main3" "main4";
         grid-template-columns: 1fr;
     }
+
+    footer ul{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (min-width:700px) and (max-width:1000px){
