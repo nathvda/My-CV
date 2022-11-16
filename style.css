@@ -37,6 +37,12 @@ section{
     grid-template-columns: 300px repeat(2,800px);
 }
 
+footer ul{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
 @media (max-width:700px){
     :root{
         --accent:orange;
@@ -160,11 +166,6 @@ footer{
     background-color: var(--black);
     color:white;    
     padding:0 var(--padding_value) var(--padding_value) var(--padding_value);
-}
-
-footer ul{
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
 }
 
 dt{
